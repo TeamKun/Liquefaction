@@ -1,15 +1,15 @@
 {
   "required": true,
   "minVersion": "0.8.2",
-  "package": "otamusan.liquefaction.mixin",
+  "package": "net.kunmc.lab.liquefaction.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "main.refmap.json",
   "mixins": [
-    "net.kunmc.lab.liquefaction.mixin.MixinEntityPlayer",
-    "net.kunmc.lab.liquefaction.mixin.MixinClientEntityPlayer",
-    "net.kunmc.lab.liquefaction.mixin.MixinBlockState",
-    "net.kunmc.lab.liquefaction.mixin.MixinWorld",
-    "net.kunmc.lab.liquefaction.mixin.MixinFlowingFluidBlock"
+    "MixinEntityPlayer",
+    "MixinClientEntityPlayer",
+    "MixinBlockState",
+    "MixinWorld",
+    "MixinFlowingFluidBlock"
   ],
   "injectors": {
     "defaultRequire": 1
